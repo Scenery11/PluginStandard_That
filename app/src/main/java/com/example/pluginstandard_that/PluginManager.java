@@ -80,6 +80,12 @@ public class PluginManager {
         parserReceivers(context, filePath);
     }
 
+    /**
+     * 通过系统PMS来解析apk，获取AndroidManifest.xml中静态注册的广播，从而动态注册广播
+     *
+     * @param context
+     * @param path
+     */
     private void parserReceivers(Context context, String path) {
         //获取PackageParser.Package对象   解析apk
         try {
