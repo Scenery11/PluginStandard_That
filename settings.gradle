@@ -1,0 +1,4 @@
+include ':APlugin'
+include ':PluginStandard'
+include ':app'
+rootProject.name = "PluginStandard_That"
